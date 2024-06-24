@@ -19,6 +19,7 @@ namespace ToniesCaseStudy
                                    .Where(x => File.Exists(x))
                                    .First();
 
+                // ========== Enter the path to your GUI application ==========
                 process = Process.Start(exePath, "start_gui.pyw");
 
                 // Wait for initialization
